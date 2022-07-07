@@ -13,7 +13,7 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-Provides Azure AD SLA performance for your tenant for each calendar month. Details on the Azure AD SLA can be found on the [Microsoft Azure SLA page](https://azure.microsoft.com/en-us/support/legal/sla/active-directory/v1_1/). 
+Provides Azure AD SLA performance for your tenant for each calendar month. Details on the Azure AD SLA can be found on the [Microsoft Azure SLA page](https://azure.microsoft.com/support/legal/sla/active-directory/v1_1/). 
 
 
 Inherits from [entity](../resources/entity.md).

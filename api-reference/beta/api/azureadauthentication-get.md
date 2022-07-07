@@ -12,7 +12,7 @@ Namespace: microsoft.graph
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
-List all available Azure AD SLA performance information for the Azure AD tenant. Azure AD SLA performance is measured by calendar month. Details on the Azure AD SLA can be found on the [Microsoft Azure SLA page](https://azure.microsoft.com/en-us/support/legal/sla/active-directory/v1_1/).
+List all available Azure AD SLA performance information for the Azure AD tenant. Azure AD SLA performance is measured by calendar month. Details on the Azure AD SLA can be found on the [Microsoft Azure SLA page](https://azure.microsoft.com/support/legal/sla/active-directory/v1_1/).
 
 ## Permissions
 One of the following permissions is required to call this API. To learn more, including how to choose permissions, see [Permissions](/graph/permissions-reference).
