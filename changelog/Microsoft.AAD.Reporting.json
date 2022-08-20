@@ -1,6 +1,104 @@
 {
   "changelog": [
-      {
+    {
+      "ChangeList": [
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Enumeration",
+          "ChangedApiName": "azureADLicenseType",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **azureADLicenseType** enumeration type.",
+          "Target": "azureADLicenseType"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "featureUsageDetail",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **featureUsageDetail** resource type.",
+          "Target": "featureUsageDetail"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "licenseInfoDetail",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **licenseInfoDetail** resource type.",
+          "Target": "licenseInfoDetail"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "restrictedSignIns",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **restrictedSignIns** relationship from the [auditLogRoot](https://docs.microsoft.com/en-us/graph/api/resources/auditLogRoot?view=graph-rest-beta) resource.",
+          "Target": "auditLogRoot"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "azureADFeatureUsage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **azureADFeatureUsage** resource type.",
+          "Target": "azureADFeatureUsage"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "azureADLicenseUsage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **azureADLicenseUsage** resource type.",
+          "Target": "azureADLicenseUsage"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "azureADUserFeatureUsage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **azureADUserFeatureUsage** resource type.",
+          "Target": "azureADUserFeatureUsage"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Resource",
+          "ChangedApiName": "restrictedSignIn",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **restrictedSignIn** resource type.",
+          "Target": "restrictedSignIn"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Method",
+          "ChangedApiName": "getAzureADFeatureUsage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **getAzureADFeatureUsage** method from the [reportRoot](https://docs.microsoft.com/en-us/graph/api/reportRoot?view=graph-rest-beta) resource.",
+          "Target": "reportRoot"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Method",
+          "ChangedApiName": "getAzureADLicenseUsage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **getAzureADLicenseUsage** method from the [reportRoot](https://docs.microsoft.com/en-us/graph/api/reportRoot?view=graph-rest-beta) resource.",
+          "Target": "reportRoot"
+        },
+        {
+          "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+          "ApiChange": "Method",
+          "ChangedApiName": "getAzureADUserFeatureUsage",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **getAzureADUserFeatureUsage** method from the [reportRoot](https://docs.microsoft.com/en-us/graph/api/reportRoot?view=graph-rest-beta) resource.",
+          "Target": "reportRoot"
+        }
+      ],
+      "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
+      "Cloud": "Prod",
+      "Version": "beta",
+      "CreatedDateTime": "2022-07-26T17:16:21.9522621Z",
+      "WorkloadArea": "Reports and audit",
+      "SubArea": "Identity and access reports"
+    },  
+    {
          "ChangeList": [
            {
             "Id": "32ae0a92-8eca-4f25-8552-7600bc9370f5",
