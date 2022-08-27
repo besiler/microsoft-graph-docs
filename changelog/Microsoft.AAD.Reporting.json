@@ -94,10 +94,36 @@
       "Id": "2f3cf4fc-ec0f-4802-9d86-ead1224f320e",
       "Cloud": "Prod",
       "Version": "beta",
-      "CreatedDateTime": "2022-07-26T17:16:21.9522621Z",
+      "CreatedDateTime": "2022-08-26T17:16:21.9522621Z",
       "WorkloadArea": "Reports and audit",
       "SubArea": "Identity and access reports"
-    },  
+    }, 
+    {
+      "ChangeList": [
+        {
+          "Id": "4f4e00b0-3a4f-417f-815d-3b14ca312b86",
+          "ApiChange": "Resource",
+          "ChangedApiName": "restrictedSignIns",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **restrictedSignIns** relationship from the [auditLogRoot](https://docs.microsoft.com/en-us/graph/api/resources/auditLogRoot?view=graph-rest-1.0) resource.",
+          "Target": "auditLogRoot"
+        },
+        {
+          "Id": "4f4e00b0-3a4f-417f-815d-3b14ca312b86",
+          "ApiChange": "Resource",
+          "ChangedApiName": "restrictedSignIn",
+          "ChangeType": "Deletion",
+          "Description": "Removed the **restrictedSignIn** resource type.",
+          "Target": "restrictedSignIn"
+        }
+      ],
+      "Id": "4f4e00b0-3a4f-417f-815d-3b14ca312b86",
+      "Cloud": "Prod",
+      "Version": "v1.0",
+      "CreatedDateTime": "2022-08-25T19:38:16.6215248Z",
+      "WorkloadArea": "Reports and audit",
+      "SubArea": "Identity and access reports"
+    },
     {
          "ChangeList": [
            {
